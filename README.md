@@ -1,5 +1,6 @@
-# 💫 About Me:
-i am mohan gowda b r<br>b tech in cse
+# 💫 About Me
+heyyy
+i  MOHAN GOWDA B R
 
 
 ## 🌐 Socials:
