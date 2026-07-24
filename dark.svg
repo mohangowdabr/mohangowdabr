@@ -164,7 +164,7 @@
     <circle cx="260" cy="60" r="30"/>
   </clipPath>
 </defs>
-<image href="https://drive.google.com/drive/folders/1iw4dhM9gtgxGJHNV1bmtfGb0EKUBPKNB" x="230" y="30" width="60" height="60" clip-path="url(#avatarClip)"/>
+<image href="https://kommodo.ai/i/dTGdvXWIRrGb336hY18q" x="230" y="30" width="60" height="60" clip-path="url(#avatarClip)"/>
 
     <!-- scanline local to left panel -->
     <rect x="24" y="-30" width="420" height="30" fill="url(#scanGrad)" opacity="0.6">
