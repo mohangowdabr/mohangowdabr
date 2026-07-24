@@ -130,31 +130,35 @@
     </circle>
 
     <!-- floating ascii group -->
-    <g font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="13" font-weight="600">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="5s" repeatCount="indefinite"/>
-
-      <g fill="url(#asciiGrad)" filter="url(#glow)">
-        <text x="60" y="72" opacity="0">      .:::::::::::.<animate attributeName="opacity" to="1" begin="0.2s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="87" opacity="0">   .:::::::::::::::::.<animate attributeName="opacity" to="1" begin="0.36s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="102" opacity="0">  ::::.-"""""""-.::::<animate attributeName="opacity" to="1" begin="0.52s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="117" opacity="0"> ::::/    ●     ●    \::::<animate attributeName="opacity" to="1" begin="0.68s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="132" opacity="0">:::::|        ⌣        |:::::<animate attributeName="opacity" to="1" begin="0.84s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="147" opacity="0"> ::::\            /::::<animate attributeName="opacity" to="1" begin="1.0s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="162" opacity="0">  ::::`-.........-`::::<animate attributeName="opacity" to="1" begin="1.16s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="177" opacity="0">   ':::::::::::::::'<animate attributeName="opacity" to="1" begin="1.32s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="192" opacity="0">     ':::::::::::'<animate attributeName="opacity" to="1" begin="1.48s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="207" opacity="0">        ' ||||| '<animate attributeName="opacity" to="1" begin="1.64s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="222" opacity="0">       .-'|||||'-.<animate attributeName="opacity" to="1" begin="1.8s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="237" opacity="0">      /   |||||   \<animate attributeName="opacity" to="1" begin="1.96s" dur="0.4s" fill="freeze"/></text>
-        <text x="60" y="252" opacity="0">      '-----------'<animate attributeName="opacity" to="1" begin="2.12s" dur="0.4s" fill="freeze"/></text>
-      </g>
-      <g fill="url(#asciiGrad)" filter="url(#glowStrong)" font-size="12.5" letter-spacing="1">
-        <text x="234" y="278" text-anchor="middle" opacity="0">&lt; MOHAN GOWDA B R &gt;<animate attributeName="opacity" to="1" begin="2.3s" dur="0.5s" fill="freeze"/></text>
-      </g>
-      <rect x="320" y="267" width="4" height="14" fill="#22D3EE" opacity="0">
-        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.001;0.01;0.5;0.51;1" begin="2.8s" dur="1s" repeatCount="indefinite"/>
-      </rect>
-    </g>
+    <svg width="320" height="230" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="asciiGrad2" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#4ade80"/>
+<stop offset="100%" stop-color="#16a34a"/>
+</linearGradient>
+<filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="1.2" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<g font-family="monospace" font-size="14" fill="url(#asciiGrad2)" filter="url(#glow2)">
+<text x="20" y="30" opacity="0">      .-------.<animate attributeName="opacity" to="1" begin="0.2s" dur="0.4s" fill="freeze"/></text>
+<text x="20" y="45" opacity="0">     /  ___    \<animate attributeName="opacity" to="1" begin="0.36s" dur="0.4s" fill="freeze"/></text>
+<text x="20" y="60" opacity="0">    /  |cpu|    \<animate attributeName="opacity" to="1" begin="0.52s" dur="0.4s" fill="freeze"/></text>
+<text x="20" y="75" opacity="0">   |   '---'     |<animate attributeName="opacity" to="1" begin="0.68s" dur="0.4s" fill="freeze"/></text>
+<text x="20" y="90" opacity="0">   |  [■]   [■]  |<animate attributeName="opacity" to="1" begin="0.84s" dur="0.4s" fill="freeze"/></text>
+<text x="20" y="105" opacity="0">   |     __      |<animate attributeName="opacity" to="1" begin="1.0s" dur="0.4s" fill="freeze"/></text>
+<text x="20" y="120" opacity="0">   |    |__|     |<animate attributeName="opacity" to="1" begin="1.16s" dur="0.4s" fill="freeze"/></text>
+<text x="20" y="135" opacity="0">    \          /<animate attributeName="opacity" to="1" begin="1.32s" dur="0.4s" fill="freeze"/></text>
+<text x="20" y="150" opacity="0">     '--------'<animate attributeName="opacity" to="1" begin="1.48s" dur="0.4s" fill="freeze"/></text>
+<text x="20" y="165" opacity="0">      |  ||  |<animate attributeName="opacity" to="1" begin="1.64s" dur="0.4s" fill="freeze"/></text>
+<text x="20" y="180" opacity="0">     _|  ||  |_<animate attributeName="opacity" to="1" begin="1.8s" dur="0.4s" fill="freeze"/></text>
+<text x="20" y="195" opacity="0">    |_________|<animate attributeName="opacity" to="1" begin="1.96s" dur="0.4s" fill="freeze"/></text>
+</g>
+</svg>
 
     <!-- scanline local to left panel -->
     <rect x="24" y="-30" width="420" height="30" fill="url(#scanGrad)" opacity="0.6">
