@@ -238,13 +238,13 @@
         <text x="484" y="206"><tspan fill="#22D3EE">📍 Location:</tspan><tspan fill="#94A3B8"> Bangalore, India</tspan></text>
       </g>
       <g opacity="0"><animateTransform attributeName="transform" type="translate" values="-10 0;0 0" begin="2.2s" dur="0.5s" fill="freeze"/><animate attributeName="opacity" to="1" begin="2.2s" dur="0.5s" fill="freeze"/>
-        <text x="484" y="234"><tspan fill="#7C3AED">🎓 Education:</tspan><tspan fill="#94A3B8"> B.Tech, Computer Science</tspan></text>
+        <text x="484" y="234"><tspan fill="#7C3AED">🎓 Education:</tspan><tspan fill="#94A3B8"> BTech in computer science Engineering</tspan></text>
       </g>
       <g opacity="0"><animateTransform attributeName="transform" type="translate" values="-10 0;0 0" begin="2.6s" dur="0.5s" fill="freeze"/><animate attributeName="opacity" to="1" begin="2.6s" dur="0.5s" fill="freeze"/>
-        <text x="484" y="262"><tspan fill="#10B981">🎯 Focus:</tspan><tspan fill="#94A3B8"> building products that matter</tspan></text>
+        <text x="484" y="262"><tspan fill="#10B981">🎯 Focus:</tspan><tspan fill="#94A3B8"> Open Source • Cloud • Backend </tspan></text>
       </g>
       <g opacity="0"><animateTransform attributeName="transform" type="translate" values="-10 0;0 0" begin="3.0s" dur="0.5s" fill="freeze"/><animate attributeName="opacity" to="1" begin="3.0s" dur="0.5s" fill="freeze"/>
-        <text x="484" y="290"><tspan fill="#22D3EE">🔗 Portfolio:</tspan><tspan fill="#94A3B8"> mohangowdabr.vercel.app</tspan></text>
+        <text x="484" y="290"><tspan fill="#22D3EE">🔗 Portfolio:</tspan><tspan fill="#94A3B8"> https://my-portfolio-civ33z7e9-mohangowdabrs-projects.vercel.app/</tspan></text>
       </g>
       <g opacity="0"><animateTransform attributeName="transform" type="translate" values="-10 0;0 0" begin="3.4s" dur="0.5s" fill="freeze"/><animate attributeName="opacity" to="1" begin="3.4s" dur="0.5s" fill="freeze"/>
         <text x="484" y="318"><tspan fill="#7C3AED">✉ Email:</tspan><tspan fill="#94A3B8"> mohanwork18@gmail.com</tspan></text>
