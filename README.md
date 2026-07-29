@@ -16,7 +16,7 @@
 <td width="50%" valign="top">
 
 ```
-mohan@dev:~$
+MoHAN GOWDA B R
 ```
 
 ### Hi 👋, I'm **MOHAN GOWDA B R**
