@@ -16,7 +16,7 @@
 <td width="50%" valign="top">
 
 ```
-MGBR
+MGBR(mohan gowda b r)
 ```
 
 ### Hi 👋, I'm **MOHAN GOWDA B R**
